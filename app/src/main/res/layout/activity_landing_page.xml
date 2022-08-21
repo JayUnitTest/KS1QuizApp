@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/container"
+    >
+
+    <Button
+        android:id="@+id/btnStudentPortal"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_margin="20dp"
+        android:backgroundTint="@color/teal_200"
+        android:text="Student"
+        android:textAllCaps="true"
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/btnTeachersPortal"
+        tools:layout_editor_absoluteX="20dp" />
+
+    <Button
+        android:id="@+id/btnTeachersPortal"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_gravity="center"
+        android:layout_margin="20dp"
+        android:background="@drawable/buttons"
+        android:text="Teachers "
+        android:textAllCaps="true"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteX="20dp" />
+</androidx.constraintlayout.widget.ConstraintLayout>
