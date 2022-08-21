@@ -1,7 +1,7 @@
 # KS1QuizApp
 
-This is a multiple choice quiz application created in Android Studio for the ==Mobile 
-Application development Module==
+This is a multiple choice quiz application created in Android Studio for the **Mobile 
+Application development Module**
 
 written in **Kotlin**
 
